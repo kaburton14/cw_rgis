@@ -25,4 +25,5 @@ vf <- factor(vz)
 ## data frame
 df0<- data.frame(letter = vz, numeric = va)
 
-df0
+
+
