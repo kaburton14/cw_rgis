@@ -19,7 +19,7 @@ sf_site <- df_fish %>%
 
 mapview(sf_site)
 
-saveRDS(sf_site, "data/sf_finsync_rds")
+saveRDS(sf_site, "data/sf_finsync_nc.rds")
 
 #projection
 sf_ft_wgs <- sf_site %>% 
